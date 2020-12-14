@@ -1,19 +1,33 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Casaco maneiro",
+      "price": 290.90
+    },
+    {
+      "id": 2,
+      "title": "Óculos barato",
+      "price": 20.90
+    },
+    {
+      "id": 3,
+      "title": "Tênis da moda",
+      "price": 500.00
     }
   ],
-  "comments": [
+  "stock": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "quantity": 1
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
